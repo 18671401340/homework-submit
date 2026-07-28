@@ -1,7 +1,15 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>作业批改提交</title>
+    <!-- 无需额外CSS -->
+</head>
+<body>
+<!-- 你的容器与JS全部放在body内部 -->
 <div id="app"></div>
 <script type="text/javascript">
   var webSdkScript = document.createElement('script');
-  // 已修复双斜杠问题
   webSdkScript.src = 'https://lf-cdn.coze.cn/obj/unpkg/flow-platform/builder-web-sdk/dist/umd/index.js';
   document.head.appendChild(webSdkScript);
   webSdkScript.onload = function () {
@@ -17,3 +25,5 @@
     });
   }
 </script>
+</body>
+</html>
